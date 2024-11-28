@@ -1,9 +1,21 @@
 <!-- markdownlint-disable-file MD004 MD024 MD034 MD036 -->
 # CHANGE LOG
 
-## main(v0.7.6)
+# main(v0.8.1)
+
+- feat: |Doc| 更新 UI 安装的文档
+
+## v0.8.0
+
+- feat: |UI| 随机生成地址时不超过最大长度
+- feat: |UI| 邮件时间显示浏览器时区，可在设置中切换显示为 UTC 时间
+- feat: 支持转移邮件到其他用户
+
+## v0.7.6
 
 - feat: 支持提前设置 bot info, 降低 telegram 回调延迟 (#441)
+- feat: 增加 telegram mini app 的 build 压缩包
+- feat: 增加是否启用垃圾邮件检查 `ENABLE_CHECK_JUNK_MAIL` 配置
 
 ## v0.7.5
 
